@@ -91,7 +91,7 @@ def generate(self, user_input: str, **kwargs) -> str:
     import requests
     response = requests.post(
         "http://localhost:11434/api/generate",
-        json={"model": "mistral", "prompt": f"Kyros: {user_input}\nKokomi:"}
+        json={"model": "mistral", "prompt": f"RDXFGXY1: {user_input}\nKokomi:"}
     )
     return response.json().get("response", "...").strip()
 ```

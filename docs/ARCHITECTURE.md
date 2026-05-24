@@ -19,7 +19,7 @@ ui/cli/terminal.py          ← reads input, routes commands
                             │
                             ▼
                     prompt wrapped in template
-                    "Kyros: {input}\nKokomi:"
+                    "RDXFGXY1: {input}\nKokomi:"
                             │
                             ▼
                     brain/model/transformer.py  ← forward pass

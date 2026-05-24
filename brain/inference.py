@@ -13,7 +13,7 @@ from utils.helpers import get_device
 
 logger = get_logger(__name__)
 
-PROMPT_TEMPLATE = "Kyros: {input}\nKokomi:"
+PROMPT_TEMPLATE = "RDXFGXY1: {input}\nKokomi:"
 
 
 class KokomiInference:
@@ -119,8 +119,8 @@ class KokomiInference:
 
             so_far = self.tokenizer.decode(new_tokens)
 
-            if "\nKyros:" in so_far or "\nKokomi:" in so_far:
-                so_far = so_far.split("\nKyros:")[0].split("\nKokomi:")[0]
+            if "\nRDXFGXY1:" in so_far or "\nKokomi:" in so_far:
+                so_far = so_far.split("\nRDXFGXY1:")[0].split("\nKokomi:")[0]
                 return self._clean(so_far)
 
             if so_far.endswith("\n\n"):
@@ -130,7 +130,7 @@ class KokomiInference:
 
     def _clean(self, text: str) -> str:
         text = text.strip()
-        for artifact in ["Kyros:", "Kokomi:", "---"]:
+        for artifact in ["RDXFGXY1:", "Kokomi:", "---"]:
             if text.startswith(artifact):
                 text = text[len(artifact):].strip()
         while "\n\n\n" in text:

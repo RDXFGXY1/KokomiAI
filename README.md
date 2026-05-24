@@ -97,7 +97,7 @@ python main.py
 
 ## Credits
 
-Built by **Kyros** — Founder & CEO of [NullStudio Inc.](https://github.com/RDXFGXY1)
+Built by **RDXFGXY1** — Founder & CEO of [NullStudio Inc.](https://github.com/RDXFGXY1)
 
 Kokomi is a solo project. Every module — the transformer, the tokenizer,
 the memory system, the training pipeline — was written from scratch as a learning

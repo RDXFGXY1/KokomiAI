@@ -22,7 +22,7 @@ Everything lives in `data/kokomi.db` — a single SQLite file.
 
 ```
 /remember working on BPE tokenizer upgrade
-/remember kyros prefers dark red interfaces
+/remember RDXFGXY1 prefers dark red interfaces
 /remember TravelersBot uses discord.py
 
 /recall tokenizer          ← finds relevant memories
@@ -41,7 +41,7 @@ from memory.memory_manager import MemoryManager
 mem = MemoryManager()
 
 # Store a memory
-mem.remember("Kyros likes PyTorch", tags=["preference", "tech"])
+mem.remember("RDXFGXY1 likes PyTorch", tags=["preference", "tech"])
 
 # Retrieve relevant memories
 results = mem.recall("pytorch", top_k=5)

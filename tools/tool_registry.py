@@ -4,7 +4,7 @@ Each tool is a callable that takes a string argument and returns a string.
 
 Usage:
     registry = ToolRegistry()
-    result = registry.run("scan_files", "/home/kyros/projects")
+    result = registry.run("scan_files", "/home/RDXFGXY1/projects")
 """
 
 from utils.logger import get_logger

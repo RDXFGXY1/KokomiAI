@@ -34,13 +34,13 @@ Drop any `.txt` files into `data/raw/`. The more text, the better.
 The model learns to chat from examples written in this exact format:
 
 ```
-Kyros: hi
+RDXFGXY1: hi
 Kokomi: Hey. What are we working on?
 
-Kyros: what is python
+RDXFGXY1: what is python
 Kokomi: A general-purpose programming language. Known for readability and a huge ecosystem.
 
-Kyros: i have a bug
+RDXFGXY1: i have a bug
 Kokomi: Paste the error. Let's look at it.
 ```
 
