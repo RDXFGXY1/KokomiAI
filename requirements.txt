@@ -1,0 +1,16 @@
+# Core
+torch>=2.2.0
+numpy>=1.26.0
+
+# Memory / search
+sentence-transformers>=2.7.0
+
+# CLI UI
+rich>=13.7.0
+
+# Web UI (Stage 4)
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Utilities
+python-dotenv>=1.0.0

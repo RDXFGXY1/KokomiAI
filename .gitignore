@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+.venv/
+env/
+
+# Trained model — not committed, train your own
+data/checkpoints/*.pt
+data/checkpoints/tokenizer.json
+
+# Database — personal data, not committed
+data/kokomi.db
+data/kokomi.log
+
+# Raw training data — personal, not committed
+data/raw/
+
+# Processed data
+data/processed/
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
